@@ -1,5 +1,5 @@
 *********************
-**PROYECTO-BIBLIOTECA**
+**:paperclip:PROYECTO-BIBLIOTECA**
 *********************
 Sistema de información web de consulta y préstamo de libros digitales.
 Cuenta con un sistema informatizado de prestamos y consultas que permitan la búsqueda 
