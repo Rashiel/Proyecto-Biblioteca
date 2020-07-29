@@ -11,13 +11,13 @@ página web,  servicio de refrencia, archivos
 de asuntos regionales.
 
 *******************
-Comenzando :memo:
+**Inicio :memo:**
 *******************
 Estas instrucciones te permitiran obtener una copia del proyecto en funcionamiento en 
 tu máquina local para propósitos de desarrollo y prueba.
 
 ***********************
-Dependencias utilizadas
+**Dependencias utilizadas**
 ***********************
  -HTML
  -SLQ
@@ -26,12 +26,12 @@ Dependencias utilizadas
  -CODEIGNITER
 
 *******************
- Base de datos
+ **Base de datos**
 *******************
 Para este proyecto se esta utilizando el motr de base de datos MySQL. Puede utilzar el archivo ........... para poder rstaurar las tablas del ejemplo
 
 *******************
-Licencia
+**Licencia**
 *******************
 <pre> line<s de codigo>
 <thhp>
