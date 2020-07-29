@@ -1,10 +1,13 @@
 *********************
 **:paperclip:PROYECTO-BIBLIOTECA**
 *********************
-Sistema de información web de consulta y préstamo de libros digitales.
-Cuenta con un sistema informatizado de prestamos y consultas que permitan la búsqueda 
-rápida de recursos bibliograficos (libros, módulos, revistas) además de una videoteca
-(que incluye videos y CD),  consulta via página web,  servicio de refrencia, archivos 
+Sistema de información web de consulta y préstamo  de
+libros digitales.
+Cuenta con un  sistema informatizado  de  prestamos y 
+consultas que permitan la búsqueda rápida de recursos
+bibliograficos (libros, módulos, revistas) además  de 
+una videoteca(que incluye videos y CD),  consulta via
+página web,  servicio de refrencia, archivos 
 de asuntos regionales.
 
 *******************
