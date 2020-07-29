@@ -1,6 +1,5 @@
-###################
-**PROYECTO-BIBLIOTECA**
-###################
+
+##**PROYECTO-BIBLIOTECA**
 Sistema de información web de consulta y préstamo de libros digitales.
 Cuenta con un sistema informatizado de prestamos y consultas que permitan la búsqueda 
 rápida de recursos bibliograficos (libros, módulos, revistas) además de una videoteca
@@ -8,7 +7,7 @@ rápida de recursos bibliograficos (libros, módulos, revistas) además de una v
 de asuntos regionales.
 
 *******************
-Comenzando >:memo:>
+Comenzando :memo:
 *******************
 Estas instrucciones te permitiran obtener una copia del proyecto en funcionamiento en 
 tu máquina local para propósitos de desarrollo y prueba.
