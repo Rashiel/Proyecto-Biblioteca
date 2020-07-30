@@ -41,10 +41,10 @@ Esta es la forma en que debe visualizarse:
  
 ## 2.MySQL
  *
- 3.-BOOTSTRAP 4
+* 3.-BOOTSTRAP 4
  *
- 4.-JAVA
- 5.-CODEIGNITER
+ *4.-JAVA
+ *5.-CODEIGNITER
 
 *******************
  **Autores :black_nib:**
