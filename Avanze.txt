@@ -1,0 +1,6 @@
+El avanze hasta el momento de Rashiel Polloqueri Chachaque y Kevin Arnold Jallurani Ruelas
+
+adjuntando:
+-El inicio en github
+-El README
+-El crud Ejemplar con el login haciendo gitbash 

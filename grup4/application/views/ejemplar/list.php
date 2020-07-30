@@ -53,11 +53,12 @@
           <td><?php echo $d->ejem_nprestamos; ?></td>
                     
       <td>
-       <form method="DELETE" action="<?php echo base_url('ejemplar/delete/'.$d->id);?>">
-         <a class="btn btn-info btn-xs" href="<?php echo base_url('ejemplar/edit/'.$d->id) ?>"><i class='fa fa-pencil' aria-hidden='true'></i></a>
+      <form method="DELETE" action="<?php echo base_url('ejemplar/delete/'.$d->ejem_id);?>">
+         <a class="btn btn-info btn-xs" href="<?php echo base_url('ejemplar/edit/'.$d->ejem_id) ?>"><i class='fa fa-pencil' aria-hidden='true'></i></a>
          
           <button type="submit" class="btn btn-danger btn-xs"><i class='fa fa-trash-o' aria-hidden='true'></i></button>
         </form>
+        
       </td>     
       </tr>
       <?php } ?>

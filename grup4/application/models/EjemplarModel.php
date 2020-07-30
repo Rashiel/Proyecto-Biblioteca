@@ -45,7 +45,7 @@ class EjemplarModel extends CI_Model{
         );
         return $this->db->insert('ejemplar', $data);
     }
-    public function update_ejemp($id) 
+    public function update_ejemp($ejem_id) 
     {
         $data=array(
             'ejem_id' => $this->input->post('ejem_id'),
@@ -64,10 +64,10 @@ class EjemplarModel extends CI_Model{
             'ejem_anio' => $this->input->post('ejem_anio'),
             'ejem_nprestamos' => $this->input->post('ejem_nprestamos')
         );
-        if($id==0){
+        if($ejem_id==0){
             return $this->db->insert('ejemplar',$data);
         }else{
-            $this->db->where('id',$id);
+            $this->db->where('ejem_id',$ejem_id);
             return $this->db->update('ejemplar',$data);
         }        
     }

@@ -1,5 +1,5 @@
 <br>
-   <form method="post" action="<?php echo base_url('ejemplar/update/'.$ejemp->id);?>">
+   <form method="post" action="<?php echo base_url('ejemplar/update/'.$ejemp->ejem_id);?>">
      <div class="card pull-right" style="width: 18rem;">
   <img src="https://us.123rf.com/450wm/vladwel/vladwel1709/vladwel170900015/85353942-ilustraci%C3%B3n-de-datos-personales-.jpg?ver=6" class="card-img-top" alt="...">
   <div class="card-body">

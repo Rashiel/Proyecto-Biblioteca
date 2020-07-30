@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class Ejemplar extends CI_Controller {
+class Persona extends CI_Controller {
    /**
     * Get All Data from this method.
     *
@@ -9,20 +9,20 @@ class Ejemplar extends CI_Controller {
    public function __construct() {
     //load database in autoload libraries 
       parent::__construct(); 
-      $this->load->model('EjemplarModel');         
+      $this->load->model('PersonaModel');         
    }
    public function index()
    {
-       $ejemplar=new EjemplarModel;
-       $data['data']=$ejemplar->get_ejemplar();
+       $persona=new PersonaModel;
+       $data['data']=$persona->get_persona();
        $this->load->view('includes/header');       
-       $this->load->view('ejemplar/list',$data);
+       $this->load->view('persona/list',$data);
        $this->load->view('includes/footer'); 
    }
    public function create()
    {
       $this->load->view('includes/header');
-      $this->load->view('ejemplar/create');
+      $this->load->view('persona/create');
       $this->load->view('includes/footer');      
    }
    /**
@@ -32,20 +32,20 @@ class Ejemplar extends CI_Controller {
    */
    public function store()
    {
-       $ejemplar=new EjemplarModel;
-       $ejemplar->insert_ejemp();
-       redirect(base_url('ejemplar'));
+       $persona=new PersonaModel;
+       $persona->insert_person();
+       redirect(base_url('persona'));
     }
    /**
     * Edit Data from this method.
     *
     * @return Response
    */
-   public function edit($ejem_id)
+   public function edit($id)
    {
-       $ejemp = $this->db->get_where('ejemplar', array('ejem_id' => $ejem_id))->row();
+       $person = $this->db->get_where('persona', array('id' => $id))->row();
        $this->load->view('includes/header');
-       $this->load->view('ejemplar/edit',array('ejemp'=>$ejemp));
+       $this->load->view('persona/edit',array('person'=>$person));
        $this->load->view('includes/footer');   
    }
    /**
@@ -53,21 +53,21 @@ class Ejemplar extends CI_Controller {
     *
     * @return Response
    */
-   public function update($ejem_id)
+   public function update($id)
    {
-       $ejemplar=new EjemplarModel;
-       $ejemplar->update_ejemp($ejem_id);
-       redirect(base_url('ejemplar'));
+       $persona=new PersonaModel;
+       $persona->update_person($id);
+       redirect(base_url('persona'));
    }
    /**
     * Delete Data from this method.
     *
     * @return Response
    */
-   public function delete($ejem_id)
+   public function delete($id)
    {
-       $this->db->where('ejem_id', $ejem_id);
-       $this->db->delete('ejemplar');
-       redirect(base_url('ejemplar'));
+       $this->db->where('id', $id);
+       $this->db->delete('persona');
+       redirect(base_url('persona'));
    }
 }
