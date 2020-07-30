@@ -16,22 +16,37 @@ de asuntos regionales.
 Estas instrucciones te permitiran obtener una copia del proyecto en funcionamiento en 
 tu máquina local para propósitos de desarrollo y prueba.
 
+
+***************************
+**Pre-requisitos :clipboard:**
+***************************
+Visite este enlace <https://github.com/Rashiel/Proyecto-Biblioteca.git>
+para obtener toda la documentación y conocimiento profundo del cómo se realizó el proyecto.
+
+
+*************************
+**Despliegue :file_folder:**
+*************************
+Esta es la forma en que debe visualizarse:
+
+
+<Imagen>
 ***********************
-**Dependencias utilizadas**
+**Dependencias utilizadas :nut_and_bolt:**
 ***********************
- -HTML
- -SLQ
- -BOOTSTRAP 4
- -JAVA
- -CODEIGNITER
+ *HTML
+ *MySQL
+ *BOOTSTRAP 4
+ *JAVA
+ *CODEIGNITER
 
 *******************
- **Base de datos**
+ **Autores :black_nib:**
 *******************
-Para este proyecto se esta utilizando el motr de base de datos MySQL. Puede utilzar el archivo ........... para poder rstaurar las tablas del ejemplo
-
+ *Kevin Arnold Jallurani Ruelas <kevinjallurani>
+ *Rashiel Polloqueri Chachaque <Rashiel Polloqueri Chachaque>
+ *Carlos Daniel Condori Corimayhua <carlosdani123>
 *******************
-**Licencia**
+**Licencia :pushpin:**
 *******************
-<pre> line<s de codigo>
-<thhp>
+ 1- Licencia de Apache v.2.0
