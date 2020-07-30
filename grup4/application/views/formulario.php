@@ -44,8 +44,8 @@ background-size: cover;
 
 
 
-
-
+          <img src="https://www.pinterest.com/pin/437412182533415486/" width="120" height="120"  class="rounded float-left" id="img">
+          
 
 
 
