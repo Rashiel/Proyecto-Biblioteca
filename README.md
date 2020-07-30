@@ -37,22 +37,22 @@ Esta es la forma en que debe visualizarse:
 *****************************************
 **Dependencias utilizadas :nut_and_bolt:**
 *****************************************
-* 1.HTML
+* HTML
  
-* 2.MySQL
+* MySQL
  
-* 3.-BOOTSTRAP 4
+* BOOTSTRAP 4
  
-* 4.-JAVA
+* JAVA
 
-* 5.-CODEIGNITER
+* CODEIGNITER
 
 *******************
  **Autores :black_nib:**
 *******************
- 1.-Kevin Arnold Jallurani Ruelas <kevinjallurani>
- 2.-Rashiel Polloqueri Chachaque <Rashiel Polloqueri Chachaque>
- 3.-Carlos Daniel Condori Corimayhua <carlosdani123>
+ * Kevin Arnold Jallurani Ruelas <kevinjallurani>
+ * Rashiel Polloqueri Chachaque <Rashiel Polloqueri Chachaque>
+ * Carlos Daniel Condori Corimayhua <carlosdani123>
 
 *******************
 **Licencia :pushpin:**
