@@ -37,8 +37,8 @@ Esta es la forma en que debe visualizarse:
 *****************************************
 **Dependencias utilizadas :nut_and_bolt:**
 *****************************************
- 1.-HTML
- 2.-MySQL
+ 1.HTML
+ 2.MySQL
  3.-BOOTSTRAP 4
  4.-JAVA
  5.-CODEIGNITER
