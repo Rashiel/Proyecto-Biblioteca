@@ -59,3 +59,19 @@ $route['ejemplarCreate']['post'] = "ejemplar/store";
 $route['ejemplarEdit/(:any)'] = "ejemplar/edit/$1";
 $route['ejemplarUpdate/(:any)']['put'] = "ejemplar/update/$1";
 $route['ejemplarDelete/(:any)']['delete'] = "ejemplar/delete/$1";
+
+
+
+$route['usuario'] = "usuario/index";
+$route['usuarioCreate']['post'] = "usuario/store";
+$route['usuarioEdit/(:any)'] = "usuario/edit/$1";
+$route['usuarioUpdate/(:any)']['put'] = "usuario/update/$1";
+$route['usuarioDelete/(:any)']['delete'] = "usuario/delete/$1";
+
+
+
+$route['categoria'] = "categoria/index";
+$route['categoriaCreate']['post'] = "categoria/store";
+$route['categoriaEdit/(:any)'] = "categoria/edit/$1";
+$route['categoriaUpdate/(:any)']['put'] = "categoria/update/$1";
+$route['categoriaDelete/(:any)']['delete'] = "categoria/delete/$1";

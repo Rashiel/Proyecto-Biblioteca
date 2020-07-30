@@ -43,7 +43,7 @@
          
                 <label class="text-white col-md-3">Resumen</label>
                 <input type="text" name="ejem_resumen" class="form-control">
-          
+               
         
                 <label class="text-white col-md-3">Valoracion:</label>
                 <input type="text" name="ejem_valoracion" class="form-control">

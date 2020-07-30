@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class Usuario extends CI_Controller {
+class Categoria extends CI_Controller {
    /**
     * Get All Data from this method.
     *
@@ -9,20 +9,20 @@ class Usuario extends CI_Controller {
    public function __construct() {
     //load database in autoload libraries 
       parent::__construct(); 
-      $this->load->model('UsuarioModel');         
+      $this->load->model('CategoriaModel');         
    }
    public function index()
    {
-       $usuario=new UsuarioModel;
-       $data['data']=$usuario->get_usuario();
+       $categoria=new CategoriaModel;
+       $data['data']=$categoria->get_categoria();
        $this->load->view('includes/header');       
-       $this->load->view('usuario/list',$data);
+       $this->load->view('categoria/list',$data);
        $this->load->view('includes/footer'); 
    }
    public function create()
    {
       $this->load->view('includes/header');
-      $this->load->view('usuario/create');
+      $this->load->view('categoria/create');
       $this->load->view('includes/footer');      
    }
    /**
@@ -32,20 +32,20 @@ class Usuario extends CI_Controller {
    */
    public function store()
    {
-       $usuario=new UsuarioModel;
-       $usuario->insert_usuar();
-       redirect(base_url('usuario'));
+       $categoria=new CategoriaModel;
+       $categoria->insert_categ();
+       redirect(base_url('categoria'));
     }
    /**
     * Edit Data from this method.
     *
     * @return Response
    */
-   public function edit($usua_id)
+   public function edit($cate_id)
    {
-       $usuar = $this->db->get_where('usuario', array('usua_id' => $usua_id))->row();
+       $categ = $this->db->get_where('categoria', array('cate_id' => $cate_id))->row();
        $this->load->view('includes/header');
-       $this->load->view('usuario/edit',array('usua_id'=>$usua_id));
+       $this->load->view('categoria/edit',array('categ'=>$categ));
        $this->load->view('includes/footer');   
    }
    /**
@@ -53,21 +53,21 @@ class Usuario extends CI_Controller {
     *
     * @return Response
    */
-   public function update($usua_id)
+   public function update($cate_id)
    {
-       $usuario=new UsuarioModel;
-       $usuario->update_usuar($usua_id);
-       redirect(base_url('usuario'));
+       $categoria=new CategoriaModel;
+       $categoria->update_categ($cate_id);
+       redirect(base_url('categoria'));
    }
    /**
     * Delete Data from this method.
     *
     * @return Response
    */
-   public function delete($usua_id)
+   public function delete($cate_id)
    {
-       $this->db->where('usua_id', $usua_id);
-       $this->db->delete('usuario');
-       redirect(base_url('usuario'));
+       $this->db->where('cate_id', $cate_id);
+       $this->db->delete('categoria');
+       redirect(base_url('categoria'));
    }
 }

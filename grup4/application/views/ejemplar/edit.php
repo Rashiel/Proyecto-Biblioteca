@@ -43,15 +43,15 @@
                 <input type="text" name="ejem_resumen" class="form-control" value="<?php echo $ejemp->ejem_resumen; ?>">
           
             
-                <label class="text-black col-md-3">Valoracion:</label>
+                <label class="text-white col-md-3">Valoracion:</label>
                 <input type="text" name="ejem_valoracion" class="form-control" value="<?php echo $ejemp->ejem_valoracion; ?>">
             
         
-                <label class="text-black col-md-3">Año:</label>
+                <label class="text-white col-md-3">Año:</label>
                 <input type="text" name="ejem_anio" class="form-control" value="<?php echo $ejemp->ejem_anio; ?>">
             
          
-                <label class="text-black col-md-3">Prestamos:</label>
+                <label class="text-white col-md-3">Prestamos:</label>
                 <input type="text" name="ejem_nprestamos" class="form-control" value="<?php echo $ejemp->ejem_nprestamos; ?>"> 
                   
                     

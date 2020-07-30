@@ -1,6 +1,14 @@
 El avanze hasta el momento de Rashiel Polloqueri Chachaque y Kevin Arnold Jallurani Ruelas
 
-adjuntando:
+Adjuntando:
 -El inicio en github
 -El README
--El crud Ejemplar con el login haciendo gitbash 
+-El crud Ejemplar con el login haciendo gitbash
+
+El avanze hasta el momento día 30 de Julio de Rasheil Polloqueri Chachaque y Kevin Arnold Jallurani Ruelas 
+
+Adjuntando:
+-Avanze del login.
+-Conluyendo las tablas de Ejemplares, Categoria y Usuario.
+-Concluyendo con el trabajo Final de la Primera Unidad
+ 
