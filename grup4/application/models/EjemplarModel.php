@@ -48,7 +48,7 @@ class EjemplarModel extends CI_Model{
     public function update_ejemp($ejem_id) 
     {
         $data=array(
-            'ejem_id' => $this->input->post('ejem_id'),
+            //'ejem_id' => $this->input->post('ejem_id'),
             'ejem_titulo' => $this->input->post('ejem_titulo'),
             'ejem_editorial' => $this->input->post('ejem_editorial'),
             'ejem_paginas' => $this->input->post('ejem_paginas'),
@@ -70,6 +70,17 @@ class EjemplarModel extends CI_Model{
             $this->db->where('ejem_id',$ejem_id);
             return $this->db->update('ejemplar',$data);
         }        
+    }
+
+public function getCategoria(){
+        $query = $this->db->get('categoria');
+        $rows = $query->result();
+
+        $opciones=array();
+        foreach ($rows as $row) {
+            $opciones[$row->cate_id]=$row->cate_nombre;
+        }
+        return $opciones;
     }
 }
 ?>

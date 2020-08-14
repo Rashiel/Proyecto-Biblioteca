@@ -20,7 +20,7 @@ class Ejemplar extends CI_Controller {
        $this->load->view('includes/footer'); 
    }
    public function create()
-   {
+   {  
       $this->load->view('includes/header');
       $this->load->view('ejemplar/create');
       $this->load->view('includes/footer');      
@@ -70,4 +70,28 @@ class Ejemplar extends CI_Controller {
        $this->db->delete('ejemplar');
        redirect(base_url('ejemplar'));
    }
+    
+   public function crear(){
+         $this->load->helper('form');
+         $this->load->model('EjemplarModel');
+         $opciones = $this->EjemplarModel->getCategoria();
+         $data['opciones']=$opciones;
+
+         
+         $this->load->view("ejemplar/formulario",$data);
+
+    }
+
+    public function listar(){
+        $rows = $this->db->query("SELECT * FROM ejemplar,categoria WHERE ejem_cate_id=cate_id")->result();
+        $data['rows']=$rows;
+        $this->load->view("ejemplar/listar",$data);
+    }
+
+    public function evalua(){
+        $categoria= $this->input->post('cate_id');
+        
+    }    
+    
+    
 }
