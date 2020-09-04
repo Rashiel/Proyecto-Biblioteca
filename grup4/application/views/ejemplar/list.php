@@ -1,7 +1,8 @@
-<br>
+
+  <br>
    <div class="row">
     <div class="col-lg-12">           
-        <h2 class="text-white">Ejemplares         
+        <h2 class="text-black">Ejemplares         
             <div class="pull-right">
                <a class="btn btn-primary" href="<?php echo base_url('ejemplar/create') ?>"> Create New Product  <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
             </div>
@@ -10,9 +11,13 @@
 </div>
 <br>
 <center>
-<table class="table table-hover table-striped table-dark ">
+
+ 
+
+<table class="table table-sm" id="mytable">
   <thead class"thead-dark">
       <tr>
+          
           <th>ID</th>
           <th>Titulo</th>
           <th>Editorial</th>
@@ -64,4 +69,6 @@
       <?php } ?>
   </tbody>
 </table>
+
+
 </center>

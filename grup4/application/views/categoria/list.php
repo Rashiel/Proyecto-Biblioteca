@@ -1,7 +1,7 @@
 <br>
    <div class="row">
     <div class="col-lg-12">           
-        <h2 class="text-white">Categoria 
+        <h2 class="text-black">Categoria 
                   
             <div class="pull-right">
                <a class="btn btn-primary" href="<?php echo base_url('categoria/create') ?>"> Create New Product  <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
@@ -11,7 +11,7 @@
 </div>
 <br>
 <center>
-<table class="table table-hover table-striped table-dark ">
+<table class="table table-sm" id="mytable">
   <thead class"thead-dark">
       <tr>
           <th>ID</th>

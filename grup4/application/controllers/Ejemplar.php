@@ -91,7 +91,9 @@ class Ejemplar extends CI_Controller {
     public function evalua(){
         $categoria= $this->input->post('cate_id');
         
-    }    
+    }
+    
+
     
     
 }
